@@ -7,7 +7,6 @@ runtime: php73
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
 #
 # entrypoint: serve index.php
-runtime: php55
 api_version: 1
 
 handlers:
