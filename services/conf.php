@@ -8,7 +8,7 @@ class CONF {
     /* Data configuration for database */
     public $DB_SERVER   = "localhost";
     public $DB_USER     = "root";
-    public $DB_PASSWORD = "shriganesh@123";
+    public $DB_PASSWORD = "shriGanesh@123";
     public $DB_NAME     = "markeet";
 
     /* FCM key for notification */
