@@ -6,7 +6,8 @@ class CONF {
     public $DEMO_VERSION = false;
 
     /* Data configuration for database */
-    public $DB_SERVER   = "localhost";
+    //public $DB_SERVER   = "localhost";
+     public $DB_SERVER   = "mysql:unix_socket=/cloudsql/dotcorpsandroidbackend:asia-south1:markeet";
     public $DB_USER     = "root";
     public $DB_PASSWORD = "shriGanesh@123";
     public $DB_NAME     = "markeet";
