@@ -9,7 +9,7 @@ class CONF {
     //public $DB_SERVER   = "localhost";
     public $DB_SERVER   = "mysql:unix_socket=/cloudsql/dotcorpsandroidbackend:asia-south1:markeet";
     public $DB_USER     = "root";
-    public $DB_PASSWORD = "shriganesh@123";
+    public $DB_PASSWORD = "shriGanesh@123";
     public $DB_NAME     = "markeet";
 
     /* FCM key for notification */
