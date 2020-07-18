@@ -16,9 +16,8 @@ handlers:
   static_files: \1
   upload: .+\.(gif|png|jpg)$
 
-- url: /
-  script: index.html
-  secure: always
+ - url: .*
+  script: auto
 
 - url: /(.+\.php)$
   script: \1
