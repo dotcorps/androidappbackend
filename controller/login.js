@@ -12,7 +12,7 @@ angular.module('App').controller('LoginController', function ($rootScope, $scope
 
 	self.doLogin = function () {
 		self.submit_loading = true;
-		request.login(self.userdata).then(function (result) {
+		request.login(self.userdata).then(function (result)
 		    var resp = result.data;
 			$timeout(function () { // give delay for good UI
 				self.submit_loading = false;
